@@ -7,10 +7,41 @@
 body {
     background-color:black;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     color: #271A45;
     
 }
+
+header {
+     background-color: #060507;
+     display: flex;
+     width: 100vw;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px;
+     height: 100px;
+     color: white;
+ 
+ }
+ 
+ #voltar {
+     width: 50px;
+     padding: 10px;
+     background-color: #E1E1E6;
+     border-radius: 50%;
+     margin-left: 10px;
+     
+     
+ }
+ 
+ #logo {
+     width: 50px;
+     background-color: white;
+     border-radius: 50%;
+     margin-right: 10px;
+ }
 
 section {
     display: flex;
@@ -18,8 +49,8 @@ section {
     justify-content: center;
     align-items: center;
     background-color: #D9CDF7;
-    width: 70%;
-    height: 80vh;
+    width: 75%;
+    height: 50vh;
     border-radius: 10px;
     margin: 5% 0;
 }
@@ -60,14 +91,14 @@ p {
 }
 
 h1 {
-    font-family: Crimson Pro;
+    font-family: 'CrimsonPro', sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
 }
 
 h4 {
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -98,5 +129,30 @@ button {
 
     #imgfechar{
         display: block;
+    }
+}
+
+@media (max-width:1450px){
+    section {
+        height: 40vh;
+        width: 90%;
+    }
+}
+
+@media (max-width:850px) {
+    section {
+        flex-direction: column;
+        gap: 40px;
+        height: 60vh;
+    }
+}
+
+@media (max-width:550px) {
+    #card{
+        width: 90%;
+    }
+
+    header > h1 {
+        font-size: 130%;
     }
 }
