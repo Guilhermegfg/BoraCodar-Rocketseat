@@ -8,10 +8,44 @@ body {
     background-color: #0F0D13;
     color: rgba(225, 225, 230, 1);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: "Roboto", sans-serif;
 }
+
+
+/*Header*/
+
+header {
+   background-color: #2A2141;
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 100px;
+
+}
+
+#voltar {
+    width: 50px;
+    padding: 10px;
+    background-color: #E1E1E6;
+    border-radius: 50%;
+    margin-left: 10px;
+    
+    
+}
+
+#logo {
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
 
 p {
     color: #E1E1E6;
@@ -21,6 +55,8 @@ p {
 h2 {
     font-size: 24px;
 }
+
+
 #container {
     display: flex;
     gap: 32px;
@@ -105,7 +141,25 @@ h2 {
 }
 
 
+@media (max-width:700px) {
+    #container {
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
 
+    #player1 {
+        height: 550px;
+        
+    }
+
+    
+}
+
+@media (max-width:450px) {
+    header > h1 {
+        font-size: 130%;
+    }
+}
 
 
 
