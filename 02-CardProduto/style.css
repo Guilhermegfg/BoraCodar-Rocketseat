@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    color: #271A45;
+    
+}
+
+section {
+    display: flex;
+    gap: 13px;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9CDF7;
+    width: 70%;
+    height: 80vh;
+    border-radius: 10px;
+    margin: 5% 0;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+#img360 {
+    width: 33px;
+    height: 23px;
+    align-self: flex-end;
+    margin-right: 50px;
+    margin-top: 8px;
+}
+
+#imgfechar{
+    display: none;
+    width: 16px;
+    height: 16px;
+    align-self: flex-end;
+    margin-right: 50px;
+    margin-top: 8px;
+}
+
+#card2 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+p {
+    font-family: "lato", sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+h1 {
+    font-family: Crimson Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+h4 {
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+button {
+    display: flex;
+    width: 160px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 999px;
+    border: 0.5px solid #271A45;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+#card:hover {
+    #img360{
+        display: none;
+    }
+
+    #imgfechar{
+        display: block;
+    }
+}

@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0F0D13;
+    color: rgba(225, 225, 230, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+
+p {
+    color: #E1E1E6;
+    opacity: 0.67;
+}
+
+h2 {
+    font-size: 24px;
+}
+#container {
+    display: flex;
+    gap: 32px;
+    margin-top: 50px ;
+    
+}
+
+#player1 {
+    height: 498px;
+    padding: 38px;
+    border-radius: 10px;
+    background-color: #2A2141;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:29px
+}
+
+.controle {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+#tempo {
+    margin-top: -19px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#container2 {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+#player2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2A2141;
+    align-items: center;
+    gap: 29px;
+    border-radius: 10px;
+    padding: 29px;
+    width: 358px;
+    height: 267px;
+}
+
+.top {
+    display: flex;
+    gap: 29px;
+    justify-content: center;
+    align-items: center;
+}
+
+#barra {
+    width: 300px;
+}
+
+
+#tempo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 224px;
+    margin-top: -25px;
+}
+
+#player3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2A2141;
+    align-items: center;
+    gap: 29px;
+    border-radius: 10px;
+    padding: 29px;
+    width: 358px;
+    height: 199px;
+}
+
+
+
+
+
+
+
+
+
