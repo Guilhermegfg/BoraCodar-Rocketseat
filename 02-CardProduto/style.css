@@ -59,6 +59,16 @@ section {
     display: flex;
     flex-direction: column;
     width: 450px;
+
+}
+
+#sofaAnimated {
+    display: none;
+}
+
+#img360:hover,
+#imgfechar:hover {
+    cursor: pointer;
 }
 
 #img360 {
@@ -76,6 +86,16 @@ section {
     align-self: flex-end;
     margin-right: 50px;
     margin-top: 8px;
+}
+
+html.animated #sofa,
+html.animated #img360 {
+    display: none;
+}
+
+html.animated #sofaAnimated,
+html.animated #imgfechar {
+    display: initial;
 }
 
 #card2 {
@@ -122,19 +142,11 @@ button {
     line-height: 16px;
 }
 
-#card:hover {
-    #img360{
-        display: none;
-    }
 
-    #imgfechar{
-        display: block;
-    }
-}
 
 @media (max-width:1450px){
     section {
-        height: 40vh;
+        height: 50vh;
         width: 90%;
     }
 }
