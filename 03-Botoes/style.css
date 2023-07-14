@@ -10,6 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: "roboto", sans-serif;
 }
 
 header {
@@ -22,6 +23,8 @@ header {
     color: white;
 
 }
+
+
 
 #voltar {
     width: 50px;
@@ -85,7 +88,11 @@ p {
     text-align: center;
 }
 
-.opcao:focus {
+.opcao:hover {
+    cursor: pointer;
+}
+
+.opcao:focus{
     background-color: #8257E5;
     width: 60px;
     height: 60px;
@@ -226,5 +233,16 @@ html.movable #terciario {
     cursor: move;
     #movable {
         display: initial;
+    }
+}
+
+@media (max-width:450px) {
+    header > h1 {
+        font-size: 1.2em;
+    }
+
+    .opcao {
+        width: 45px;
+        height: 45px;
     }
 }
