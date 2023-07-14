@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="" id="principal">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Botões e cursores</title>
-
     <link rel="stylesheet" href="./style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,115 +11,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <a href="../index.html">
+            <img id="voltar" src="../assets/voltar.png" alt="Seta de voltar" >
+        </a>
+            <h1>BOTÕES E CURSORES</h1>
+        <img id="logo" src="../assets/logodevgfg14.png" alt="" >
+    </header>
+
     <section>
-        <div id="card">
-            <div>
+        <h1>Teste os botões</h1>
+        <p>Interaja com os botões e observe a mudança de aparência e de cursores</p>
 
-                <h1>Tipos de botão</h1>
-                <p>Dentro de um layout, botões servem para destacar ações importantes a serem tomadas. 
-                    Acompanhe abaixo um exemplo de tipos e propriedades.</p>
-        
-            </div>
-
-            <div>
-
-                <table>
-                    <thead>
-                        <tr>
-                            <th></th>
-                            <th>BOTÃO PRIMÁRIO</th>
-                            <th>BOTÃO SECUNDÁRIO</th>
-                            <th>BOTÃO TERCIÁRIO</th>
-                            <th>CURSOR</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <th>DEFAULT</th>
-                            <td><button class="default primary">DEFAULT PRIMARY</button></td>
-                            <td><button class="default secondary">DEFAULT SECONDARY</button></td>
-                            <td><button class="default tertiary">DEFAULT TERTIARY</button></td>
-                            <td><img src="./assets/Group.svg" alt=""></td>
-                        </tr>
-
-                        <tr>
-                            <th>HOVER</th>
-                            <td><button class="hover primary">HOVER PRIMARY</button></td>
-                            <td><button class="hover secondary">HOVER SECONDARY</button></td>
-                            <td><button class="hover tertiary">HOVER TERTIARY</button></td>
-                            <td><img src="./assets/Group.svg" alt=""></td>
-                        </tr>
-
-                        <tr>
-                            <th>FOCUS</th>
-                            <td><button class="focus primary">FOCUS PRIMARY</button></td>
-                            <td><button class="focus secondary">FOCUS SECONDARY</button></td>
-                            <td><button class="focus tertiary">FOCUS TERTIARY</button></td>
-                            <td><img src="./assets/Group.svg" alt=""></td>
-                        </tr>
-
-                        <tr>
-                            <th>DISABLED</th>
-                            <td><button class="disabled primary">DISABLED PRIMARY</button></td>
-                            <td><button class="disabled secondary">DISABLED SECONDARY</button></td>
-                            <td><button class="disabled tertiary">DISABLED TERTIARY</button></td>
-                            <td><img src="./assets/notallowed_100169 (1) 1.svg" alt=""></td>
-                        </tr>
-
-                        <tr>
-                            <th>LOADING</th>
-                            <td><button class="loading primary">
-                                <img src="./assets/frame-3 1.svg" alt="">   
-                                LOADING PRIMARY
-                            </button></td>
-                            <td><button class="loading secondary">
-                                <img src="./assets/frame-3 1.svg" alt="">
-                                LOADING SECONDARY
-                            </button></td>
-                            <td><button class="loading tertiary">
-                                <img src="./assets/frame-3 1.svg" alt="">
-                                LOADING TERTIARY
-                            </button></td>
-                            <td><img src="./assets/Group (2).svg" alt=""></td>
-                        </tr>
-
-                        <tr>
-                            <th>MOVABLE</th>
-                            <td><button class="movable primary">
-                                <img src="./assets/reorder-three.svg" alt="">
-                                MOVABLE PRIMARY
-                            </button></td>
-                            <td><button class="movable secondary">
-                                <img src="./assets/reorder-three.svg" alt="">
-                                MOVABLE SECONDARY
-                            </button></td>
-                            <td><button class="movable tertiary">
-                                <img src="./assets/reorder-three.svg" alt="">  
-                                MOVABLE TERTIARY
-                            </button></td>
-                            <td><img src="./assets/Group (3).svg" alt=""></td>
-                        </tr>
-
-                        
-                    </tbody>
-                </table>
-
-            </div>
-        </div>  
-        
-        <div id="card2">
-            <h1>Teste de botões</h1>
-            <p>Interaja com os botões e observe a mudança
-                 de aparência e de cursores</p>
-
-            <button class="primary">INTEREJA COMIGO</button>
-            <button class="secondary">INTEREJA COMIGO</button>
-            <button class="tertiary">
-                <img src="./assets/reorder-three.svg" alt="">
-                INTERAJA COMIGO
-            </button>
+        <div id="box">
+            <button class="opcao" onclick=toggleDefault()>DEFAULT</button>
+            <button class="opcao" onclick=toggleHover()>HOVER</button>
+            <button class="opcao" onclick=toggleFocus()>FOCUS</button>
+            <button class="opcao" onclick=toggleDisabled()>DISABLED</button>
+            <button class="opcao" onclick=toggleLoading()>LOADING</button>
+            <button class="opcao" onclick=toggleMovable()>MOVABLE</button>
         </div>
+
+        <button id="primario"> 
+            <img src="./assets/frame-3 1.svg" alt="" id="loading">
+            <img src="./assets/reorder-three.svg" alt="" id="movable">
+            PRIMÁRIO</button>
+        <button id="secundario"> 
+            <img src="./assets/frame-3 1.svg" alt="" id="loading">
+            <img src="./assets/reorder-three.svg" alt="" id="movable">
+            SECUNDÁRIO</button>
+        <button id="terciario"> 
+            <img src="./assets/frame-3 1.svg" alt="" id="loading">
+            <img src="./assets/reorder-three.svg" alt="" id="movable">
+            TERCIÁRIO</button>
     </section>
+
+    <script src="./script.js"></script>
 </body>
 </html>
