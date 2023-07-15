@@ -11,6 +11,10 @@ body {
     font-size: 12px;
     height: 100vh;
     background-color: black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header {
@@ -51,6 +55,7 @@ main {
     position: relative;
     border-radius: 20px;
     padding: 24px 32px;
+    max-width: 1024px;
 }
 
 #perfil {
@@ -63,6 +68,8 @@ main {
 #on {
     color: #00B37E ;
 }
+
+
 
 p {
     opacity: 0.9;
@@ -110,7 +117,7 @@ p {
     flex-direction: column;
     gap: 10px;
     align-self: end;
-    max-width: 50%;
+    width: fit-content;
     
 }
 
@@ -144,5 +151,22 @@ p {
     border-radius: 999px;
     background: #282843;
     padding: 14px 24px;
+}
+
+
+@media (min-width:1050px) {
+    #conversa > span:nth-child(2n-1){
+        width: fit-content;
+    }
+
+    main {
+        width: 2000px;
+    
+    }
+
+    #fechar {
+        margin-left: 700px;
+    }
+
 }
 
