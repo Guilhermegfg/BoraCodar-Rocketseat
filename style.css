@@ -6,13 +6,23 @@
 
 body {
     font-family: "Robot", sans-serif;
+
 }
 
 header {
+    padding: 20px 10px;
     display: flex;
+    color: white;
     justify-content: space-between;
     align-items: center;
-    background-color: gray;
+    background: #130F1E;
+}
+
+header > img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
 }
 
 main {
@@ -23,30 +33,52 @@ main {
     align-items: center;
     /* flex-direction: column; */
     flex-wrap: wrap;
-    gap: 5%;
-    background-color: rgb(197, 192, 192);
+    gap: 20px;
+    background: #0B0911;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    word-break:inherit;
+    padding: 20px;
+    
+    
+
+}
+
+a > p {
+    width: 90%;
+    text-align: center;
+    font-size: 16px;
+    
+    
 }
 
 .cards {
-    width: 30%;
-    object-fit: cover;
+    max-width: 300px;
+    height: 400px;
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
-    background-color: black;
     border-radius: 20px;
-    padding: 10px;
-    max-width: fit-content;
+    background: #202024;
+    
 }
 
 img {
-    width: 200px;
+    width: 70%;
     height: 200px;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 .cards:hover {
-    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 8px 8px rgba(102, 51, 153, 40);
     transition-duration: 0.5s;
 }
 

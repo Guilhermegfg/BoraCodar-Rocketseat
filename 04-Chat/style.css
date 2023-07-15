@@ -1,0 +1,148 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #E1E1E6;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    height: 100vh;
+    background-color: black;
+}
+
+header {
+    background-color: #060507;
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    color: white;
+
+}
+
+header > h1 {
+    font-size: 22px;
+}
+
+#voltar {
+    width: 50px;
+    padding: 10px;
+    background-color: #E1E1E6;
+    border-radius: 50%;
+    margin-left: 10px;
+    
+    
+}
+
+#logo {
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+main {
+    background-color: #1A1924 ;
+    margin: 32px 24px;
+    position: relative;
+    border-radius: 20px;
+    padding: 24px 32px;
+}
+
+#perfil {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 26px;
+}
+
+#on {
+    color: #00B37E ;
+}
+
+p {
+    opacity: 0.9;
+}
+
+#nome {
+    font-size: 16px;
+    font-weight: 700;
+    opacity: 1;
+}
+
+
+
+#fotoPerfil {
+    width: 50px;
+}
+
+#hora {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#conversa {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+#conversa > span:nth-child(2n-1){
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 50%;
+    
+
+}
+
+#conversa > span:nth-child(2n){
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-self: end;
+    max-width: 50%;
+    
+}
+
+#conversa > span:nth-child(2n) > p{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-self: end;
+    
+    
+}
+
+#conversa > span > div {
+    padding: 14px;
+    border-radius: 8px 8px 0px 8px;
+    
+}
+
+#conversa > span:nth-child(2n-1) > div {
+    background-color: #633BBC ;
+}
+
+#conversa > span:nth-child(2n) > div {
+    background-color: #07847E ;
+}
+
+#enviar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 999px;
+    background: #282843;
+    padding: 14px 24px;
+}
+
