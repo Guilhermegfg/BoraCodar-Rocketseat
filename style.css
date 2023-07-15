@@ -6,6 +6,12 @@
 
 body {
     font-family: "Robot", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background: #0B0911;
 
 }
 
@@ -16,6 +22,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background: #130F1E;
+    width: 100vw;
 }
 
 header > img {
@@ -28,14 +35,16 @@ header > img {
 main {
     padding-top: 20px;
     padding-bottom: 20px;
+    max-width: 964px;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* flex-direction: column; */
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 32px;
     background: #0B0911;
 }
+
+
 
 a {
     text-decoration: none;
@@ -43,6 +52,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 20px;
     word-break:inherit;
     padding: 20px;
@@ -51,9 +61,13 @@ a {
 
 }
 
+
 a > p {
     width: 90%;
-    text-align: center;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 16px;
     
     
@@ -61,7 +75,7 @@ a > p {
 
 .cards {
     max-width: 300px;
-    height: 400px;
+    height: 450px;
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
@@ -71,7 +85,7 @@ a > p {
 }
 
 img {
-    width: 70%;
+    width: 200px;
     height: 200px;
     border-radius: 30px;
 }
@@ -82,7 +96,11 @@ img {
     transition-duration: 0.5s;
 }
 
-@media (max-width:800px){
+.estilo {
+    visibility: hidden;
+}
+
+@media (max-width:963px){
     img {
         width: 150px;
         height: 150px;
@@ -90,6 +108,10 @@ img {
 
     h1 {
         font-size: 25px;
+    }
+
+    .estilo {
+        display: none;
     }
 }
 
@@ -107,6 +129,9 @@ img {
         height: 50px;
     }
 }
+
+
+
 
 
     
