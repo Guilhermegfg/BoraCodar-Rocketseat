@@ -117,7 +117,7 @@ img {
 
 @media (max-width:630px) {
     .cards {
-        width: 50%;
+        max-width: 60%;
     }
 
     h1 {
