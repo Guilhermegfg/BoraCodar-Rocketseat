@@ -30,10 +30,10 @@ Esse é um projeto baseado em diversos desafios propostos pela Rocketseat com in
   - [Player de música](https://guilhermegfg.github.io/BoraCodar-Rocketseat/01-PlayerMusica/index.html)
   - [Card de produto](https://guilhermegfg.github.io/BoraCodar-Rocketseat/02-CardProduto/index.html)
   - [Botões e cursores](https://guilhermegfg.github.io/BoraCodar-Rocketseat/03-Botoes/index.html)
+  - [Chat](https://guilhermegfg.github.io/BoraCodar-Rocketseat/04-Chat/index.html)
+  - [Calculadora](https://guilhermegfg.github.io/BoraCodar-Rocketseat/05-Calculadora/index.html)
  
 :hourglass: Desafios a serem feitos...
-  - Chat
-  - Calculadora
   - Cartão de embarque
   - Site para encontrar o seu bloco no carnaval
   - Dashboard
