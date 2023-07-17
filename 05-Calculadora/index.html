@@ -25,45 +25,48 @@
         <section>
             <p>1 + 1</p>
             <span>
-                <p>=</p>
-                <p>2</p>
+                <p id="sinal">=</p>
+                <input type="text" id="display" readonly>
             </span>
 
             <div>
-                <button class="colorone">CE</button>
-                <button>C</button>
-                <button>%</button>
-                <button class="color" >%</button>
+                <button class="colorone" onclick="limpar()">CE</button>
+                <button onclick="limpar()">C</button>
+                <button onclick="adicionarSinalAoDisplay('%')">%</button>
+                <button class="color" onclick="adicionarSinalAoDisplay('/')" ><img src="./assets/Divide.svg" alt=""></button>
             </div>
 
             <div>
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button class="color">X</button>
+                <button onclick="adicionarAoDisplay('7')">7</button>
+                <button onclick="adicionarAoDisplay('8')">8</button>
+                <button onclick="adicionarAoDisplay('9')">9</button>
+                <button class="color" onclick="adicionarSinalAoDisplay('*')">X</button>
             </div>
 
             <div>
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button class="color">-</button>
+                <button onclick="adicionarAoDisplay('4')">4</button>
+                <button onclick="adicionarAoDisplay('5')">5</button>
+                <button onclick="adicionarAoDisplay('6')">6</button>
+                <button class="color" onclick="adicionarSinalAoDisplay('-')">-</button>
             </div>
 
             <div>
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button class="color">+</button>
+                <button onclick="adicionarAoDisplay('1')">1</button>
+                <button onclick="adicionarAoDisplay('2')">2</button>
+                <button onclick="adicionarAoDisplay('3')">3</button>
+                <button class="color" onclick="adicionarSinalAoDisplay('+')">+</button>
             </div>
 
             <div>
-                <button>+/-</button>
-                <button>0</button>
-                <button>,</button>
-                <button class="color">=</button>
+                <button onclick="PositivoNegativo()">+/-</button>
+                <button onclick="adicionarAoDisplay('0')">0</button>
+                <button onclick="adicionarAoDisplay(',')">,</button>
+                <button class="color" onclick="calcular()">=</button>
             </div>
         </section>
     </main>
+
+
+    <script src="./script.js"></script>
 </body>
 </html>

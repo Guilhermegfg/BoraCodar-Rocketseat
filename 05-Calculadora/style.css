@@ -77,6 +77,15 @@ section > p {
     color: #6B6B6B;
 }
 
+#sinal {
+    color: #6B6B6B;
+}
+
+input {
+    background: #2D2A37;
+    color: white;
+}
+
 span {
     display: flex;
     justify-content: space-between;
