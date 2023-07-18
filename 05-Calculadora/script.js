@@ -30,6 +30,6 @@ function calcular() {
             display.value = "erro"
         }
         
-    }
+    }  
    
 }
