@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dashboard</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -15,5 +19,121 @@
             <h1>Dashboard</h1>
         <img id="logo" src="../assets/logodevgfg14.png" alt="" >
     </header>
+
+    <main>
+        <section id="nps" class="cards">
+            <h4>NPS geral</h4>
+            <div>
+                <img src="./assets/Group 3.svg" alt="">
+                <h6>Excelente</h6>
+            </div>
+            <p>NPS Score 75</p>
+        </section>
+
+        <section id="vendas" class="cards">
+            <h4>Vendas fechadas</h4>
+            <div class="circulo">
+                <h1>70%</h1>
+                <p>alcançada</p>
+            </div>
+            <div class="legenda">
+                <p>
+                    <img src="./assets/Ellipse 4.svg" alt="">
+                    Esperado 100
+                </p>
+                <p>
+                    <img src="./assets/Ellipse 4.svg" alt="">
+                    Alcançado 70
+                </p>
+            </div>
+        </section>
+
+        <section id="meta" class="cards">
+            <h4>
+                Meta mensal
+            </h4>
+
+            <div class="circulo">
+                <h1>90%</h1>
+                <p>alcançada</p>
+            </div>
+
+            <div class="legenda">
+                <p>
+                    <img src="./assets/Ellipse 4.svg" alt="">
+                    Esperado R$ 70K
+                </p>
+                <p>
+                    <img src="./assets/Ellipse 4.svg" alt="">
+                    Alcançado R$ 63K
+                </p>
+            </div>
+        </section>
+
+        <section id="semana">
+            
+            <h2>Vendas por dia da semana</h2>
+
+            <div>
+                <div id="dia">
+                    <div>
+                        <p>
+                            <img src="./assets/subir.svg" alt="">
+                            Dia com mais vendas
+                        </p>
+                        <h5>Quarta-feira</h5>
+                    </div>
+                    <div>
+                        <p>
+                            <img src="./assets/Polygon 3.svg" alt="">
+                            Dia com menos vendas
+                        </p>
+                        <h5>Domingo</h5>
+                    </div>
+                </div>
+
+                <div id="grafico">
+
+                    <hr>
+                    
+                    <div  >
+                        <div class="coluna" id="dom" ></div >
+                        <p>dom</p>
+                    </div>
+
+                    <div  >
+                        <div class="coluna" id="seg"></div >
+                        <p>seg</p>
+                    </div>
+
+                    <div  >
+                        <div class="coluna" id="ter" ></div >
+                        <p>ter</p>
+                    </div>
+
+                    <div  >
+                        <div class="coluna" id="qua" ></div >
+                        <p>qua</p>
+                    </div>
+
+                    <div  >
+                        <div class="coluna" id="qui"></div >
+                        <p>qui</p>
+                    </div>
+
+                    <div  >
+                        <div class="coluna" id="sex"></div >
+                        <p>sex</p>
+                    </div>
+
+                    <div >
+                        <div class="coluna" id="sab" ></div >
+                        <p>sab</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

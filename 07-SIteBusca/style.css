@@ -13,7 +13,6 @@ body {
 header {
     background-color: #060507;
     display: flex;
-    width: 100vw;
     justify-content: space-between;
     align-items: center;
     height: 100px;
@@ -160,6 +159,7 @@ input {
     justify-content: center;
     margin:auto;
     width: fit-content;
+    padding-bottom: 100px;
 }
 
 #guia {

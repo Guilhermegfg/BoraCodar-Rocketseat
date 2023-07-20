@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "inter", sans-serif;
 }
 
 body {
     background-color: black;
+    color: white;
 }
 
 header {
@@ -38,4 +40,207 @@ header > h1 {
     background-color: white;
     border-radius: 50%;
     margin-right: 10px;
+}
+
+main {
+    display: grid;
+    grid-template-areas: "1fr 1fr 1fr"
+                         "1fr 1fr 1fr";
+                         
+    column-gap: 32px;
+    row-gap: 59px;
+    padding: 100px;
+    border-radius: 16px;
+    background: #292738;
+}
+
+
+
+h4 {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+h6 {
+    color: #81FBB8;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+p {
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    line-height: 160%;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 29px 48px;
+    border-radius: 16px;
+    background: #363447;
+    box-shadow: 3px 4px 26px 0px rgba(0, 0, 0, 0.25);
+}
+
+#nps {
+    
+}
+
+#nps div {
+    height: 197px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+
+
+#vendas {
+
+}
+
+#meta {
+
+
+}
+
+.legenda {
+    display: flex;
+    margin-bottom: 0;
+    gap: 20px;
+}
+
+.legenda p {
+    display: flex;
+    gap: 4px;
+}
+
+.circulo {
+    width: 197px;
+    height: 197px;
+    padding: 30px;
+    border: 20px blue solid;
+    border-radius: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+#semana {
+    grid-column: 1/4;
+    padding: 19px 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    border-radius: 16px;
+    background: #363447;
+    box-shadow: 3px 4px 26px 0px rgba(0, 0, 0, 0.25);
+    }
+
+section > div {
+    display: flex;
+    gap: 32px;
+}
+
+#dia {
+    width: 469px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+#dia > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 6px;
+}
+
+h5 {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 160%;
+}
+
+#grafico {
+    display: flex;
+    gap: 59px;
+    align-items: end;
+    position: relative;
+    width: 523px;
+}
+
+#grafico > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 3px;
+    display: flex;
+    align-self: center;
+    border-radius: 999px;
+    background: #4A4556;
+    
+
+}
+
+.coluna {
+    position: relative;
+    width: 15px;
+    background: linear-gradient(180deg, #90F7EC 0%, #32CCBC 100%);
+   
+    border-radius: 20px;
+}
+
+#dom {
+    height: 39px;
+}
+
+#seg {
+    height: 115px;
+}
+
+#ter {
+    height: 76px;
+}
+
+#qua {
+    height: 159px;
+}
+
+#qui {
+    height: 129px;
+}
+
+#sex {
+    height: 120px;
+}
+
+#sab {
+    height: 69px;
 }
