@@ -52,6 +52,8 @@ main {
     padding: 100px;
     border-radius: 16px;
     background: #292738;
+    max-width: 1336px;
+    margin: auto;
 }
 
 
@@ -136,8 +138,11 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
 }
+
+
 
 
 
