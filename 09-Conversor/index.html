@@ -6,6 +6,11 @@
     <title>Conversor de moedas</title>
 
     <link rel="stylesheet" href="./style.css">
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css"
+    />
 </head>
 <body>
     <header>
@@ -17,42 +22,89 @@
     </header>
 
     <main>
-        <h1>Conversor de moedas</h1>
-        <form>
-            <input type="number" placeholder="1.000">
-         
-            <img src="./assets/arrows-exchange.svg" alt="">
-            <input type="number" placeholder="5.148,20">
-
-
-        </form>
-
-        <h1>Taxa de câmbio</h1>
-
-        <section>
-            <div>
-                <p>5,3</p>
-                <p>5,2</p>
-                <p>5,1</p>
-                <p>5,0</p>
-            </div>
-            
-            <div id="grafico">
-                <div>
-                    <img src="./assets/Vector.svg" alt="">
+        <section class="conversor">
+          <h2>Conversor de moedas</h2>
+          <div class="wrapper">
+            <div class="money-wrapper">
+              <input type="text" class="amount" value="$1.000" />
+  
+              <div class="dropdown">
+                <div class="selected">
+                  <span class="fi fi-us fis"></span>
+                  USD
                 </div>
-                
-                <div>
-                    <p>1D</p>
-                    <p>5D</p>
-                    <p>1M</p>
-                    <p>1A</p>
-                    <p>5A</p>
-                    <p>Máx</p>
-                </div>
+  
+                <ul>
+                  <li>
+                    <span class="fi fi-br fis"></span>
+                    BRL
+                  </li>
+                  <li>
+                    <span class="fi fi-us fis"></span>
+                    USD
+                  </li>
+                  <li>
+                    <span class="fi fi-eu fis"></span>
+                    EUR
+                  </li>
+                  <li>
+                    <span class="fi fi-gb fis"></span>
+                    GBP
+                  </li>
+                </ul>
+              </div>
             </div>
-            </section>
-
-    </main>
+            <div class="middle">
+              <img src="./assets/arrows-exchange.svg" alt="trocar moeda" />
+            </div>
+            <div class="money-wrapper">
+              <input readonly type="text" class="amount" value="R$ 5.148,20" />
+  
+              <div class="dropdown">
+                <div class="selected">
+                  <span class="fi fi-br fis"></span>
+                  BRL
+                </div>
+  
+                <ul>
+                  <li>
+                    <span class="fi fi-br fis"></span>
+                    BRL
+                  </li>
+                  <li>
+                    <span class="fi fi-us fis"></span>
+                    USD
+                  </li>
+                  <li>
+                    <span class="fi fi-eu fis"></span>
+                    EUR
+                  </li>
+                  <li>
+                    <span class="fi fi-gb fis"></span>
+                    GBP
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="cambio">
+          <h2>Taxa de câmbio</h2>
+          <div class="wrapper">
+            <div id="chart"></div>
+            <div class="chart-controls">
+              <button>1D</button>
+              <button>5D</button>
+              <button class="active">1M</button>
+              <button>1A</button>
+              <button>5A</button>
+              <button>Máx</button>
+            </div>
+          </div>
+        </section>
+      </main>
+      <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+      <script src="./script.js"></script>
+       
 </body>
 </html>

@@ -136,7 +136,7 @@ p {
     width: 197px;
     height: 197px;
     padding: 30px;
-    border: 20px blue solid;
+    border: 20px #32CCBC solid;
     border-radius: 50%;
     
     display: flex;
@@ -252,4 +252,84 @@ hr {
 
 #sab {
     height: 69px;
+}
+
+
+@media (max-width:1400px) {
+    main {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2%;
+    }
+
+    .cards {
+        width: 60%;
+    }
+
+    #semana {
+        width: 80%;
+        height: 600px;
+        position: relative;
+        align-items: center;
+        
+        
+    }
+
+    #dia {
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    #grafico {
+        position: absolute;
+        bottom: 40px;
+        overflow: hidden;
+        
+        
+    }
+
+    
+}
+
+@media (max-width:1150px) {
+    .cards {
+        width: 70%;
+    }
+
+    #semana {
+        width: 100%;
+        overflow: hidden;
+    }
+}
+
+
+@media (max-width:900px){
+    main {
+        width: 100%;
+    }
+
+    #grafico {
+        gap: 30px;
+        justify-content: center;
+    }
+
+
+}
+
+
+@media (max-width:700px){
+    #grafico {
+        gap: 20px;
+        
+    }
+}
+
+@media (max-width:570px) {
+    #grafico {
+        gap: 5px;
+        
+    }
 }
