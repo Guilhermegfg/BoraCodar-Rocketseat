@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Página de clima</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -33,17 +37,17 @@
 
             <div>
                 <div>
-                    <img src="./assets/weather (6).svg" alt="">
+                    <img src="./assets/weather (4).svg" alt="">
                     <div>
-                        <p>Vento</p>
+                        <h6>Vento</h6>
                         <p>17 km/h</p>
                     </div>
                 </div>
 
                 <div>
-                    <img src="./assets/weather (6).svg" alt="">
+                    <img src="./assets/weather (5).svg" alt="">
                     <div>
-                        <p>Umidade</p>
+                        <h6>Umidade</h6>
                         <p>31%</p>
                     </div>
                 </div>
@@ -51,80 +55,88 @@
                 <div>
                     <img src="./assets/weather (6).svg" alt="">
                     <div>
-                        <p>Chuva</p>
+                        <h6>Chuva</h6>
                         <p>10 %</p>
                     </div>
                 </div>
             </div>
         </section>
+        <div>
+            <section class="qualidade">
+                <div>
+                    <img src="./assets/leaf.svg" alt="">
+                    <p>Qualidade do ar</p>
+                </div>
 
-        <section class="qualidade">
-            <div>
-                <img src="./assets/leaf.svg" alt="">
-                <p>Qualidade do ar</p>
-            </div>
+                <div>
+                    <p>Boa</p>
+                    <p>21</p>
+                </div>
 
-            <div>
-                <p>Boa</p>
-                <p>21</p>
-            </div>
+                <div>
+                    <p>12.9</p>
+                    <p>12.9</p>
+                    <p>2.1</p>
+                    <p>1.4</p>
+                    <p>21.2</p>
+                    <p>0.7</p>
+                </div>
 
-            <div>
-                <p>12.9</p>
-                <p>12.9</p>
-                <p>2.1</p>
-                <p>1.4</p>
-                <p>21.2</p>
-                <p>0.7</p>
-            </div>
+                <div>
+                    <p>PM2.5</p>
+                    <p>PM10</p>
+                    <p>SO<sub>2</sub></p>
+                    <p>NO<sub>2</sub></p>
+                    <p>O<sub>3</sub></p>
+                    <p>CO</p>
+                </div>
 
-            <div>
-                <p>PM2.5</p>
-                <p>PM10</p>
-                <p>SO<sub>2</sub></p>
-                <p>NO<sub>2</sub></p>
-                <p>O<sub>3</sub></p>
-                <p>CO</p>
-            </div>
+            </section>
 
-        </section>
+            <section class="horario">
+                <div>
+                    <img src="./assets/time.png" alt="">
+                    <p>Horário do sol</p>
+                </div>
 
-        <section class="horario">
-            <div>
-                <img src="./assets/time.png" alt="">
-                <p>Horário do sol</p>
-            </div>
-
-            <div>
-                <p>16:01</p>
-            </div>
-            <div>
-                <p>06:12</p>
-                <p>18:52</p>
-            </div>
-        </section>
+                <div>
+                    <p>16:01</p>
+                </div>
+                <div>
+                    <p>06:12</p>
+                    <p>18:52</p>
+                </div>
+            </section>
+        </div>
 
         <section class="dias">
-            <div>
+            <div class="cards">
                 <p>Amanhã</p>
-                <p>Sexta-Feira</p>
-                <p>Sábado</p>
-                <p>Domingo</p>
-                <p>Segunda-Feira</p>
+                <img src="./assets/weather.svg" alt="">
+                <p>21°<span>16°</span></p>
             </div>
 
-            <div>
+            <div class="cards">
+                <p>Sexta-Feira</p>
                 <img src="./assets/weather (1).svg" alt="">
-                <img src="./assets/weather (2).svg" alt="">
-                <img src="./assets/weather (3).svg" alt="">
-                <img src="./assets/weather (4).svg" alt="">
-                <img src="./assets/weather (5).svg" alt="">
-            </div>
-            <div>
-                <p>21°<span>16°</span></p>
                 <p>28°<span>20°</span></p>
+            </div>
+
+            <div class="cards">
+                <p>Sábado</p>
+                <img src="./assets/weather (2).svg" alt="">
                 <p>25°<span>21°</span></p>
+            </div>
+
+            <div class="cards">
+                <p>Domingo</p>
+                <img src="./assets/weather.png" alt="">
                 <p>20°<span>14°</span></p>
+            </div>
+
+            <div class="cards">
+                <p id="segunda">Segunda-Feira</p>
+                <img src="./assets/weather (3).svg" alt="">
                 <p>24°<span>18°</span></p>
             </div>
         </section>
