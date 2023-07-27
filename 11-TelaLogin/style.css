@@ -5,13 +5,14 @@
 }
 
 body {
-    background-color: black;
+    font-family: "titillium web", sans-serif;
+    color: #1E293B;
+    background-image: url(./assets/Rectangle\ 2.png);
 }
 
 header {
     background-color: #060507;
     display: flex;
-    width: 100vw;
     justify-content: space-between;
     align-items: center;
     height: 100px;
@@ -38,4 +39,113 @@ header > h1 {
     background-color: white;
     border-radius: 50%;
     margin-right: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding-left: 112px;
+    padding-top: 40px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #FFF;
+    padding-bottom: 40px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+main >:nth-child(1){ 
+    display: flex;
+    gap: 5px;
+    margin-bottom: 114px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+
+main >:nth-child(3){
+    color: #475569;
+    margin-bottom: 40px;
+    max-width: 351px;
+}
+
+main >:nth-child(4){
+    display: flex;
+    flex-direction: column;
+    max-width: 384px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 700;
+   
+}
+
+input {
+    padding: 16px 12px;
+    border-radius: 4px;
+    border: 1px solid #E2E8F0;
+    background: #FFF;
+    margin-bottom: 16px;
+}
+
+main >:nth-child(4) > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+main >:nth-child(4) span {
+    color: #7C3AED;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#senha {
+    background-image: url(./assets/eye-off.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+button {
+    padding: 16px 24px;
+    border-radius: 4px;
+    background-color: #7C3AED;
+    color: white;
+    font-weight: 600;
+    border: none;
+    margin-bottom: 32px;
+
+}
+
+main >:nth-child(5) {
+    color:#475569
+}
+
+main >:nth-child(5) span {
+    color: #7C3AED;
+    font-weight: 700;
+}
+
+
+@media (max-width:750px){
+    main {
+        max-width: 400px;
+        padding: 40px 30px;
+    }
+}
+
+
+@media (max-width:410px){
+    main {
+        max-width: 360px;
+    }
+}
+
+@media (max-width:370px){
+    main {
+        max-width: 340px;
+    }
 }
