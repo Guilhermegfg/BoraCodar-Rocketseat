@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Forms cartão</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -17,25 +21,34 @@
     </header>
 
     <main>
-        <section id="cartao">
-            <div>
-                <img src="./assets/Vector (3).svg" alt="">
+        <div id="container">
+            <section id="cartao">
+                <div>
+                    <img src="./assets/Vector (3).svg" alt="">
 
-                <img src="./assets/ContactlessPayment.svg" alt="">
-            </div>
+                    <img src="./assets/ContactlessPayment.svg" alt="">
+                </div>
 
-            <div>
-                <p>4716</p>
-                <p>8039</p>
-                <p>02 <span>**</span></p>
-                <span>****</span>
-            </div>
+                <div>
+                    <p>4716</p>
+                    <p>8039</p>
+                    <p>02 <span>**</span></p>
+                    <span>****</span>
+                </div>
 
-            <div>
-                <p>Seu nome aqui</p>
-                <p>**/**</p>
+                <div>
+                    <p>Seu nome aqui</p>
+                    <p>**/**</p>
+                </div>
+            </section>
+
+            <div class="layout" id="desc">
+                <img src="./assets/Vector (2).svg" alt="">
+                <p>Seus dados estão seguros</p>
             </div>
-        </section>
+        </div>
+
+
 
         <section id="dados">
             <label>Número do cartão</label>
@@ -56,13 +69,15 @@
                 </div>
             </div>
 
-            <div>
-                <img src="./assets/Vector (2).svg" alt="">
-                <p>Seus dados estão seguros</p>
+            <div class="layoutOne">
+                <img src="./assets/Vector (2).svg" alt="" class="layoutOne">
+                <p class="layoutOne">Seus dados estão seguros</p>
             </div>
 
-            <button>Adicionar cartão</button>
+            <button class="layoutOne">Adicionar cartão</button>
         </section>
+
+        <button class="layout">Adicionar cartão</button>
 
     </main>
 </body>
