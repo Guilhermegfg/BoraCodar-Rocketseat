@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Componente de Download</title>
 
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -12,8 +12,77 @@
         <a href="../index.html">
             <img id="voltar" src="../assets/voltar.png" alt="Seta de voltar" >
         </a>
-            <h1>Componente upload</h1>
+            <h1>Componente de Download</h1>
         <img id="logo" src="../assets/logodevgfg14.png" alt="" >
     </header>
+
+    <main>
+        <section id="top">
+            <img src="./assets/CloudArrowUp.svg" alt="">
+            <h1>Importe seus arquivos</h1>
+            <h2>Arraste ou clique para fazer upload</h2>
+        </section>
+
+        <section id="container">
+            <div class="cards">
+                <div id="fileOne">
+                    <img src="./assets/fileRoxo.svg" alt="">
+                </div>
+                <div class="info">
+                    <div class="contain">
+                        <div>
+                            <p>Scann_158.pdf</p>
+                            <p>30 MB / 74 MB</p>
+                        </div>
+                        <img src="./assets/Cancel.svg" alt="">
+                    </div>
+
+                    <div class="barra">
+                        <progress value="46" max="100" id="progressOne"></progress>
+                        <p id="andamento">46 %</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cards">
+                <div id="fileTwo">
+                    <img src="./assets/fileVerde.svg" alt="">
+                </div>
+                
+                <div class="info">
+                    <div >
+                        <p id="readmeTitle">README.rm</p>
+                        <p id="readme">12 KB</p>
+                    </div>
+
+                    <div class="barra">
+                        <progress value="100" max="100" id="progressTwo"></progress>
+                        <p id="concluido">100 %</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cards">
+                <div id="fileThree">
+                    <img src="./assets/fileVermelho.svg" alt="">
+                </div>
+                <div class="info">
+                    <div class="contain">
+                        <div>
+                            <p>picture!.jpeg</p>
+                            <p>6.3 MB</p>
+                        </div>
+                        <img src="./assets/Vector.svg" alt="">
+                    </div>
+
+                    <div class="barra">
+                        <progress value="0" max="100" id="progressThree"></progress>
+                        <p id="erro">Erro</p>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+    </main>
 </body>
 </html>

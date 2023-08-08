@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: black;
+
 }
 
 header {
@@ -38,4 +38,160 @@ header > h1 {
     background-color: white;
     border-radius: 50%;
     margin-right: 10px;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 440px;
+    margin: auto;
+}
+
+#top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    border-radius: 8px;
+    border: 1px dashed #C1B2FA;
+    background: #F3F0FF;    
+}
+
+#top > img {
+    margin-top: 28px;
+    margin-bottom: 12px;
+}
+
+#top > h1 {
+    color: #7A5FEC;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;  
+}
+
+#top > h2 {
+    color: #746E82;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 32px;
+}
+
+
+#container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+
+}
+
+.cards {
+    display: flex;
+    gap: 12px;
+    padding: 8px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 16px 0px #EAE2FD;
+}
+
+.cards > :nth-child(1) {
+    display: flex;
+    border-radius: 4px;
+    width: 48px;
+    height: 56px;
+    padding: 16px 12px;
+
+}
+
+#fileOne {
+    background: #E9E3F8;
+}
+
+#fileTwo {
+    background: #DAF2D9;
+}
+
+#fileThree {
+    
+    background: #F2D9D9;
+}
+
+.info {
+    width: 100%;
+    
+}
+
+.contain {
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.contain > :nth-child(1) > :nth-child(1),
+#readmeTitle
+ {
+    color: #575361;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.contain > :nth-child(1) > :nth-child(2),
+#readme {
+    color: #857E95;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    }
+
+
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 8px;
+
+}
+
+progress{
+    border: solid 5 px;
+    width: 85%;
+}
+
+#progressOne {
+}
+
+#progressTwo {
+}
+
+
+.barra > :nth-child(2) {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#andamento {
+    color: #9892A6;
+}
+
+#concluido {
+    color: #4E884D;
+}
+
+#erro {
+    color: #E36363;
 }
