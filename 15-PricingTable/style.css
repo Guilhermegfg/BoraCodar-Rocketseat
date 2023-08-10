@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "titillium web", sans-serif;
 }
 
 body {
-    background-color: black;
+    
 }
 
 header {
@@ -39,3 +40,173 @@ header > h1 {
     border-radius: 50%;
     margin-right: 10px;
 }
+
+main {
+    display: flex;
+    padding: 80px 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 360px;
+    margin: auto;
+    background-color: #F8FAFC;
+}
+
+section{
+    width: 320px;
+}
+
+h2 {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.84px;
+    text-transform: uppercase;    
+}
+
+
+
+.cardWhite {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    border-radius: 10px;
+    border: 1px solid #E2E8F0;
+    background: #FFF;
+    gap: 16px;
+    
+}
+
+main > :nth-child(1) {
+    margin-bottom: 40px;
+}
+
+.cardWhite > h2 {
+    color: #996DFF;
+}
+
+ #descOne {
+    display: flex;
+    justify-content: space-between;
+    font-family:" Titillium Web", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+    color: #1E293B;
+    align-items: center;
+ }
+ #descOne > :nth-child(2) {
+    font-size: 18px;
+    font-weight: 700;
+ }
+
+ #descOne > :nth-child(2) > span {
+    font-weight: 400;
+ }
+
+ .cardWhite > button {
+    display: flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    background-color: white;
+    
+    border-radius: 4px;
+    border: 1px solid  #1E293B;
+    color: #1E293B;
+    font-weight: 700;
+
+        
+ }
+
+
+
+ .vantagens {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .vantagens > :nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+ }
+
+ .cardWhite .vantagens >:nth-child(1) p {
+    color: #475569;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.96px;   
+ }
+
+ .cardBlack {
+    display: flex;
+    padding: 40px 24px 24px 24px;
+    flex-direction: column;
+    gap: 16px;  
+    border-radius: 10px;
+    background:#0F172A; 
+    color: white;
+    margin-bottom: 24px;
+ }
+
+ .cardBlack > :nth-child(1) {
+    display: none;
+ }
+
+ .cardBlack > h2 {
+    color: #996DFF;
+ }
+
+ #descTwo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ #descTwo > :nth-child(1) {
+    color: #F8FAFC;
+    font-size: 24px;
+    font-weight: 700;
+
+ }
+
+ #descTwo > :nth-child(2) {
+    color: #F8FAFC;
+    font-weight: 700;
+ }
+
+ .cardBlack button {
+    display: flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;    
+    border-radius: 4px;
+    background-color: #996DFF;
+    color: white;
+    font-weight: 700;
+ }
+
+ .cardBlack .vantagens > :nth-child(1) {
+    gap: 4px;
+ }
+
+ #title {
+    color: #1E293B;
+    font-size: 32px;
+    font-weight: 700;
+ }
+
+ #desc {
+    gap: 4px;
+    color: #475569;
+    font-weight: 400;
+    letter-spacing: 0.96px;
+ }
