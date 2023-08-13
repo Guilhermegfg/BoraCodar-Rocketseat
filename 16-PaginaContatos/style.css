@@ -5,7 +5,8 @@
 }
 
 body {
-    background-color: black;
+    color: white;
+    background: #16151E
 }
 
 header {
@@ -38,4 +39,37 @@ header > h1 {
     background-color: white;
     border-radius: 50%;
     margin-right: 10px;
+}
+
+#top {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 40px;
+    width: 430px;
+
+}
+
+#top > :nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+#top > :nth-child(2){
+    display: flex;
+    width: 100%;
+    padding: 24px;
+    gap: 10px;
+    border-radius: 5px;
+    background: #24243D;
+
+}
+
+#top > :nth-child(2) > input {
+    width: 100%;
+    background: #24243D;
+    border: none;
+    
 }
