@@ -136,7 +136,7 @@ p {
     width: 197px;
     height: 197px;
     padding: 30px;
-    border: 20px #32CCBC solid;
+    background: conic-gradient(#7367f0 252deg, #4A4556 0deg);
     border-radius: 50%;
     
     display: flex;
@@ -145,6 +145,27 @@ p {
     align-items: center;
     text-align: center;
 }
+
+.circulo::before {
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #363447;
+    z-index: 2;
+}
+
+.circulo h1,
+.circulo p {
+    z-index: 9;
+}
+
+#circulo90 {
+    background: conic-gradient(#DF9780 324deg, #4A4556 0deg);
+
+}
+
 
 
 
@@ -222,7 +243,6 @@ hr {
     position: relative;
     width: 15px;
     background: linear-gradient(180deg, #90F7EC 0%, #32CCBC 100%);
-   
     border-radius: 20px;
 }
 

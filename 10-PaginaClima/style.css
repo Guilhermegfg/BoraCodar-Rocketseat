@@ -320,7 +320,10 @@ h6 {
 @media (max-width:1300px){
 
     body {
-        background-color: #DAD8F7;
+        background-image: url(./assets/Background.png);
+        background-size: cover;
+        min-height: 100vh;
+        
     }
    
     main {
@@ -328,6 +331,7 @@ h6 {
         grid-template-rows: 1fr 1fr 1fr 1fr;
         justify-items: center;
         background: none;
+
         
         
         
