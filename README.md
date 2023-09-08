@@ -44,7 +44,7 @@ Esse é um projeto baseado em diversos desafios propostos pela Rocketseat com in
   - [Princing table](https://guilhermegfg.github.io/BoraCodar-Rocketseat/15-PricingTable/index.html)
  
 :hourglass: Desafios a serem feitos...
-  - Chat
+  - Página de contatos
   - Date picker
   - Card de personagem
   - Widget de transporte
