@@ -32,18 +32,18 @@ Esse é um projeto baseado em diversos desafios propostos pela Rocketseat com in
   - [Botões e cursores](https://guilhermegfg.github.io/BoraCodar-Rocketseat/03-Botoes/index.html)
   - [Chat](https://guilhermegfg.github.io/BoraCodar-Rocketseat/04-Chat/index.html)
   - [Calculadora](https://guilhermegfg.github.io/BoraCodar-Rocketseat/05-Calculadora/index.html)
+  - [Cartão de embarque](https://guilhermegfg.github.io/BoraCodar-Rocketseat/06-CartaoEmbarque/index.html)
+  - [Site de busca](https://guilhermegfg.github.io/BoraCodar-Rocketseat/07-SIteBusca/index.html)
+  - [Dashboard](https://guilhermegfg.github.io/BoraCodar-Rocketseat/08-Dashboard/index.html)
+  - [Conversor de moedas](https://guilhermegfg.github.io/BoraCodar-Rocketseat/09-Conversor/index.html)
+  - [Página de clima](https://guilhermegfg.github.io/BoraCodar-Rocketseat/10-PaginaClima/index.html)
+  - [Página de login](https://guilhermegfg.github.io/BoraCodar-Rocketseat/11-TelaLogin/index.html)
+  - [Kaban](https://guilhermegfg.github.io/BoraCodar-Rocketseat/12-Kaban/index.html)
+  - [Forms de cartão de crédito](https://guilhermegfg.github.io/BoraCodar-Rocketseat/13-FormsCartao/index.html)
+  - [Componente de upload](https://guilhermegfg.github.io/BoraCodar-Rocketseat/14-ComponenteUpload/index.html)
+  - [Princing table](https://guilhermegfg.github.io/BoraCodar-Rocketseat/15-PricingTable/index.html)
  
 :hourglass: Desafios a serem feitos...
-  - Cartão de embarque
-  - Site para encontrar o seu bloco no carnaval
-  - Dashboard
-  - Conversor de moedas
-  - Página de clima
-  - Página de Login
-  - Kaban
-  - Forms de cartão de crédito
-  - Componente de upload
-  - Princing table
   - Página de contatos
   - Date picker
   - Card de personagem
